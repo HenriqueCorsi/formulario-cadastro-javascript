@@ -1,0 +1,13 @@
+.container-main{
+    width: 70%;
+    height: 750px;
+    margin: 5rem auto;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-main{
+        width: 90%;
+    }
+}
