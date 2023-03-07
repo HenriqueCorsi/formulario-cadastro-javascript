@@ -1,0 +1,20 @@
+@font-face {
+    font-family: russo;
+    src: url('../../assets/font/Russo_One.ttf');
+}
+
+.container-header{
+    text-align: center;
+}
+
+.container-header h1{
+    font-family: russo;
+    font-size: 35px;
+}
+
+.container-header h2{
+    font-family: russo;
+    font-size: 20px;
+    font-weight: 100;
+}
+
