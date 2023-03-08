@@ -10,7 +10,8 @@
     border-radius: 0.3rem;
     transition: 0.5s;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     color: #ffff;
     background-image: linear-gradient(#16B7D7, #0C58B3);
 }
