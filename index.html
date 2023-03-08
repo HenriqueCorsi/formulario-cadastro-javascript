@@ -8,6 +8,9 @@
 
     <link rel="shortcut icon" href="./assets/img/car-icon.png" type="image/x-icon">
 
+    <!--CSS Reset-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
     <!--CSS container-main-->
     <link rel="stylesheet" href="./assets/css/container-main.css">
 
@@ -33,7 +36,9 @@
     <link rel="stylesheet" href="./assets/css/button.css">
     <style>
         body{
-            background-color: #4C9ED6;
+            height: 1000px;
+           background-image: linear-gradient(to top,#16B7D7, #0C58B3);
+           background-repeat: no-repeat;
         }
     </style>
 
@@ -47,41 +52,33 @@
            </div>
            <form action="">
                 <div class="container-input">
-                    <!--Input Placa-->
-                    <div class="box-input">
-                        <img src="./assets/img/plate-icon.png" alt="plate-icon"><input type="text" id="plate" placeholder="Placa">
-                    </div>
-                    <!--Input Modelo-->
-                    <div class="box-input">
-                        <img src="./assets/img/model-icon.png" alt="model-icon"><input type="text" id="model" placeholder="Modelo">
-                    </div>  
+                    <input type="text" placeholder="Plate">
                 </div>
                 <div class="container-input">
-                    <!--Input Marca-->
-                    <div class="box-input">
-                        <img src="./assets/img/brand-icon.png" alt="plate-icon"><input type="text" id="brand" placeholder="Brand">
-                    </div>
-                    <!--Input Cor-->
-                    <div class="box-input">
-                        <img src="./assets/img/color-icon.png" alt="model-icon"><input type="text" id="color" placeholder="Color">
-                    </div>  
+                    <input type="text" placeholder="Model">
+                </div>
+                <div class="container-input">
+                    <input type="text" placeholder="Brand">
+                </div>
+                <div class="container-input">
+                    <input type="text" placeholder="Color">
                 </div>
                 <div class="container-inputs-number">
                     <!--Input Ano-->
                     <div class="box-input-number">
-                        <img src="./assets/img/year-icon.png" alt="yaer-icon"><input type="number"  id="year" placeholder="Year">
+                        <input type="number"  id="year" placeholder="Year">
                     </div>
                     <!--Input  Motor-->
                     <div class="box-input-number">
-                        <img src="./assets/img/motor-icon.png" alt="motor-icon"><input type="text" id="Motor" placeholder="Motor">
+                        <input type="text" id="Motor" placeholder="Motor">
                     </div>
                     <!--Input Km-->
                     <div class="box-input-number">
-                        <img src="./assets/img/km-icon.png" alt="km-icon"><input type="number" id="Km" placeholder="KM">
+                        <input type="number" id="Km" placeholder="KM">
                     </div>
                 </div>
                 <div class="container-button">
-                    <button type="submit">Register</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
