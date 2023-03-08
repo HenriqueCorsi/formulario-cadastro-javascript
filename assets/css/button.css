@@ -1,0 +1,21 @@
+.container-button{
+    width: 50%;
+    margin: 6rem auto;
+}
+
+.container-button button{
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #4C9ED6;
+}
+
+.container-button button:hover{
+    scale: 105%;
+    background-color: #7cafd1;
+}
