@@ -1,6 +1,6 @@
 .container-button{
-    width: 50%;
-    margin: 6rem auto;
+    width: 80%;
+    margin: 2rem auto;
 }
 
 .container-button button{
@@ -12,7 +12,7 @@
     cursor: pointer;
     font-size: 20px;
     color: #ffff;
-    background-color: #4C9ED6;
+    background-image: linear-gradient(#16B7D7, #0C58B3);
 }
 
 .container-button button:hover{
