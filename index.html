@@ -13,11 +13,22 @@
 
     <!--CSS container-header-->
     <link rel="stylesheet" href="./assets/css/container-header.css">
+
+    <!--CSS form-->
+    <link rel="stylesheet" href="./assets/css/form.css">
+
+    <!--CSS container-input-->
+    <link rel="stylesheet" href="./assets/css/container-input.css">
+
+    <!--CSS box-input-->
+    <link rel="stylesheet" href="./assets/css/box-input.css">
+
     <style>
         body{
             background-color: #4C9ED6;
         }
     </style>
+
 </head>
 <body>
     <main>
@@ -26,8 +37,25 @@
                 <h1>Register</h1>
                 <h2>Fill out this form</h2>
            </div>
+           <form action="">
+                <div class="container-input">
+                    <div class="box-input">
+                        <img src="./assets/img/plate-icon.png" alt="plate-icon"><input type="text" id="plate" placeholder="Placa">
+                    </div>
+                    <div class="box-input">
+                        <img src="./assets/img/model-icon.png" alt="model-icon"><input type="text" id="model" placeholder="Modelo">
+                    </div>  
+                </div>
+                <div class="container-input">
+                    <div class="box-input">
+                        <img src="./assets/img/brand-icon.png" alt="plate-icon"><input type="text" id="brand" placeholder="Brand">
+                    </div>
+                    <div class="box-input">
+                        <img src="./assets/img/color-icon.png" alt="model-icon"><input type="text" id="color" placeholder="Color">
+                    </div>  
+                </div>
+            </form>
         </div>
-        
     </main>
 </body>
 </html>
