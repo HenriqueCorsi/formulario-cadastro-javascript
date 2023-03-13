@@ -10,16 +10,8 @@ btn.addEventListener('click', function(e){
     const year = document.getElementById('year').value;
     const motor = document.getElementById('motor').value;
     const km = document.getElementById('km').value;
-    
-    infoJson = {
-        plate: plate,
-        model: model,
-        brand: brand,
-        color: color,
-        year: year,
-        motor: motor,
-        km:km
-    }
 
-    console.log(infoJson);
+    
+
+    
 });
