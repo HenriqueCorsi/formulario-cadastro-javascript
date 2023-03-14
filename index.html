@@ -35,6 +35,8 @@
     <!--CSS Button-->
     <link rel="stylesheet" href="./assets/css/button.css">
 
+    <!--CSS Table-->
+    <link rel="stylesheet" href="./assets/css/table.css">
     <style>
         body{
            height: 1500px;
@@ -53,35 +55,81 @@
            </div>
            <form action="">
                 <div class="container-input">
-                    <input type="text" placeholder="Plate" id="plate" required>
+                    <input type="text" placeholder="Plate" id="plate-input" required>
                 </div>
                 <div class="container-input">
-                    <input type="text" placeholder="Model" id="model" required>
+                    <input type="text" placeholder="Model" id="model-input" required>
                 </div>
                 <div class="container-input">
-                    <input type="text" placeholder="Brand" id="brand" required>
+                    <input type="text" placeholder="Brand" id="brand-input" required>
                 </div>
                 <div class="container-input">
-                    <input type="text" placeholder="Color" id="color" required>
+                    <input type="text" placeholder="Color" id="color-input" required>
                 </div>
                 <div class="container-inputs-number">
                     <!--Input Ano-->
                     <div class="box-input-number">
-                        <input type="number" placeholder="Year" id="year" required>
+                        <input type="number" placeholder="Year" id="year-input" required>
                     </div>
                     <!--Input  Motor-->
                     <div class="box-input-number">
-                        <input type="text" placeholder="Motor" id="motor" required>
+                        <input type="text" placeholder="Motor" id="motor-input" required>
                     </div>
                     <!--Input Km-->
                     <div class="box-input-number">
-                        <input type="number" placeholder="KM" id="km" required>
+                        <input type="number" placeholder="KM" id="km-input" required>
                     </div>
                 </div>
                 <div class="container-button">
                     <button type="submit" id="btn">Submit</button>
                 </div>
             </form>
+        </div>
+        <div class="container-table">
+            <div class="table-title">
+                <div class="column">
+                    <h2>Plate</h2>
+                    <div class="row">
+                        <span id="plate"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Model</h2>
+                    <div class="row">
+                        <span id="model"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Brand</h2>
+                    <div class="row">
+                        <span id="brand"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Color</h2>
+                    <div class="row">
+                        <span id="color"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Year</h2>
+                    <div class="row">
+                        <span id="year"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Motor</h2>
+                    <div class="row">
+                        <span id="motor"></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>KM</h2>
+                    <div class="row">
+                        <span id="km"></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
